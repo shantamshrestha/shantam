@@ -1,0 +1,75 @@
+/* 
+.intro{
+    text-align: center;
+
+    margin: 1%;
+    width: 75%;
+}
+
+.details {
+    margin: 1%;
+}
+
+body {
+    display: flex;
+}
+a{
+    color: inherit;
+}
+a :visited{
+    visibility: hidden;
+}
+
+li{
+    list-style-type: none;
+}
+
+.experience {
+    text-align: center;
+}
+#experience li {
+    text-align: left; 
+    display: inline-block; 
+    margin: 0 10px; 
+    vertical-align: top; 
+} */
+/* * {
+    border: 1px solid #000000;
+
+} */
+/* 
+body{
+    margin: 100px;
+}
+
+html{
+    background-color: #023954;
+    color: white;
+    
+}
+
+section {
+    margin: 10%;
+}
+
+#content {
+    overflow: auto;
+    max-height: 100vh; 
+} */
+
+
+:root {
+    --badge-background-color: rgba(94, 234, 212, 0.2);
+    --badge-text-color: rgba(94, 234, 212, 0.9);;
+
+}
+
+.custom-badge {
+    background-color: var(--badge-background-color);
+    color: var(--badge-text-color);
+}
+
+/* Custom styles for text */
+.custom-text {
+    color: var(--badge-text-color);
+}
