@@ -73,3 +73,7 @@ section {
 .custom-text {
     color: var(--badge-text-color);
 }
+
+.fixed-navigation {
+    position: fixed;
+}
